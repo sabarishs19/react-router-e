@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 interface Props extends RouteComponentProps {}
 
-export const Home: React.FC<props> = ({ history, location, match }) => {
+export const Home: React.FC<Props> = ({ history, location, match }) => {
   console.log(match, location);
   return (
     <div>
